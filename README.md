@@ -3,7 +3,8 @@ ________________________________________________________________________________
 ```
 GET       Read                        /GET /resource/<id>
 
-POST      Create<non_id>              /GET /resource            --  /POST /resource
+POST      *Create<collection>         /GET /resource            --  /POST /resource
+          Create<non_id>              /GET /resource/new        --  /POST /resource/new
           Update<has_id>              /GET /resource/<id>/edit  --  /POST /resource/<id>/edit
           Delete                      /GET /resource/<id>/del   --  /POST /resource/<id>/del
 
