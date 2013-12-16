@@ -1,17 +1,17 @@
 REST == CURD
 ________________________________________________________________________________________________
-
 ```
-GET       Read                              /GET /archive/<id>
+GET       Read                        /GET /resource/<id>
 
-POST      Create<non_id>                    /GET /archive            --  /POST /archive
-          Update<has_id>                    /GET /archive/<id>/edit  --  /POST /archive/<id>/edit
-          Delete                            /GET /archive/<id>/del   --  /POST /archive/<id>/del
+POST      Create<non_id>              /GET /resource            --  /POST /resource
+          Update<has_id>              /GET /resource/<id>/edit  --  /POST /resource/<id>/edit
+          Delete                      /GET /resource/<id>/del   --  /POST /resource/<id>/del
 
-PUT       Create<non_id>                    /GET /archive            --  /PUT /archive
-          Update<has_id>                    /GET /archive/<id>/edit  --  /PUT /archive/<id>/edit
+PUT       Create<non_id>              /GET /resource            --  /PUT /resource
+          Update<has_id>              /GET /resource/<id>/edit  --  /PUT /resource/<id>/edit
 
-DELETE    Delete                            /GET /archive<id>/del    --  /DELETE /archive/<id>/del
+DELETE    Delete                      /GET /resource<id>/del    --  /DELETE /resource/<id>/del
 
-HEAD      --                                /HEAD /archive/<id>
+HEAD      --                          /HEAD /resource/<id>
 ```
+> resource指资源实体、或资源集合
