@@ -1,7 +1,7 @@
 REST == CURD
 ________________________________________________________________________________________________
-'''
 
+```
 GET       Read                              /GET /archive/<id>
 
 POST      Create<non_id>                    /GET /archive            --  /POST /archive
@@ -14,4 +14,4 @@ PUT       Create<non_id>                    /GET /archive            --  /PUT /a
 DELETE    Delete                            /GET /archive<id>/del    --  /DELETE /archive/<id>/del
 
 HEAD      --                                /HEAD /archive/<id>
-'''
+```
