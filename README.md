@@ -16,3 +16,9 @@ DELETE    Delete                      /GET /resource<id>/del    --  /DELETE /res
 HEAD      --                          /HEAD /resource/<id>
 ```
 > resource指资源实体、或资源集合
+
+> 给每个资源取唯一的名字，有唯一的一个匹配模板
+
+> 根据seo等实际要求，资源名应该是稳定的，不会删除/修改，除非产品下线
+
+> 根据资源名，模板，模板参数，可以唯一生成url
