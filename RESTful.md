@@ -10,12 +10,12 @@
 		json格式：
 
 			{
-				status: xxx,       /*状态码*/
-				message: yyy,      /*状态文本、状态码的详细描述*/
-				ver: vvv,          /*版本*/
-				format: fff,       /*格式：json、xml、text、......*/
-				auth: aaa,         /*验证：hmac、base、degist、auth2.0、......*/
-				result: 
+				status: xxx,       /*必选，状态码*/
+				message: yyy,      /*必选，状态文本、状态码的详细描述*/
+				ver: vvv,          /*版本，可选*/
+				format: fff,       /*格式，可选：json、xml、text、......*/
+				auth: aaa,         /*验证，可选：hmac、base、degist、auth2.0、......*/
+				result:            /*必选*/
                 {
 					               /*业务数据，只在状态码2xx时，具有可靠的业务结果*/
 				}
