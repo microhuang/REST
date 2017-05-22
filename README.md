@@ -36,4 +36,6 @@ ________________________________________________________________________________
 URL中:Electronic-Components-Supplies  会看作为关键词：Electronic Components Supplies
 
 而Electronic_Components_Supplies 则会看作为：ElectronicComponentsSupplies
+
+直观的影响就是，使用中划线的搜录比下划线的更多。
 ```
