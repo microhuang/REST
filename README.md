@@ -28,6 +28,12 @@ HEAD      --                          /HEAD /resource/<id>
 短横线还是下划线，-、_
 ________________________________________________________________________________________________
 
-> 短横线表示连词
+> 短横线表示空格/分词
 
-> 下划线标识空格/分词
+> 下划线标识连词，整体做为一个单词看待。
+
+```
+URL中:Electronic-Components-Supplies  会看作为关键词：Electronic Components Supplies
+
+而Electronic_Components_Supplies 则会看作为：ElectronicComponentsSupplies
+```
